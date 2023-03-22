@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, section h2, p, h3 {
+    font-family: 'Karla', sans-serif;
+    font-weight: normal;
+}
+
+#logo {
+    height: 85px;
+}
+
+header {
+    padding: 1px;
+    background-color: #edcdb1;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 30px;
+    font-size: 22px;
+}
+
+header nav li a {
+    color: #472b1b;
+    text-decoration: none;
+    padding: 12px;
+}
+
+header nav li a:hover {
+    background-color: #472b1b;
+    color: #edcdb1;
+    border-radius: 10%;
+}
+
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container, section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body {
+    background-color: #e4b388;
+}
+
+section .container h2 {
+    font-size: 70px;
+    color: #472b1b;
+}
+
+#about {
+    font-size: 30px;
+    color: #472b1b;
+    margin: 170px 0 170px 30px;
+    text-align: justify;
+}
+
+#home {
+    margin-top: 80px;
+}
+
+form input, form textarea, form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+#adopt .container h2 {
+    text-align: left;
+    font-size: 70px;
+}
+
+.frase {
+    margin-left: 80px;
+}
+
+#adopt .container form {
+    padding: 40px;
+    background-color: #edcdb1;
+    border-radius: 10px;
+    margin-right: 90px;
+    opacity: 0.9; 
+}
+
+#adopt h3 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #472b1b;
+    font-weight: normal;
+}
+
+.adopt-methods {
+    justify-content: space-around;
+}
+
+form button {
+    background-color: #e4b388;
+    color: #472b1b;
+    height: 55px;
+    width: 150px;
+    margin: 25px 0 0 83px;
+    font-size: 19px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #472b1b;
+    color:#edcdb1
+}
+
+#contact .container {
+    display: block;
+    margin-top: 200px;
+    margin-bottom: 70px;
+}
+
+.social-links img {
+    height: 30px;
+}
+
+#contact h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+.redes-sociais {
+    margin-left: 190px;
+}
+
+.endereço {
+    margin-right: 100px;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    background-color: #edcdb1;
+    color: #472b1b;
+    padding: 16px 0;
+    text-align: center;
+}
